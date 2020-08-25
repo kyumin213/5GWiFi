@@ -1,0 +1,87 @@
+@mixin cen {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@mixin flexBet {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+@mixin around {
+	display: flex;
+	justify-content: space-around;
+}
+@mixin bg {
+	background-image: url('~@/static/bg.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+@mixin fixBg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url('~@/static/bg.png');
+	background-size: 100% 100%;
+	z-index: 10;
+}
+@mixin borRadius {
+	border-radius: 6rpx;
+}
+@mixin colF {
+	color: #fff;
+}
+@mixin mainCol {
+	color: #3CF8FF;
+}
+@mixin col9 {
+	color: #999;
+}
+@mixin colA {
+	color: #aaa;
+}
+@mixin font16{
+	font-size: 16rpx;
+} 
+@mixin font20{
+	font-size: 20rpx;
+} 
+@mixin font22 {
+	font-size: 22rpx;
+}
+@mixin font24{
+	font-size: 24rpx;
+} 
+@mixin font26{
+	font-size: 26rpx;
+}
+@mixin font28{
+	font-size: 28rpx;
+}
+@mixin font30{
+	font-size: 30rpx;
+}
+@mixin font34{
+	font-size: 34rpx;
+}
+@mixin font36{
+	font-size: 36rpx;
+}
+@mixin font40 {
+	font-size: 40rpx;
+}
+@mixin font44 {
+	font-size: 44rpx;
+}
+@mixin font60 {
+	font-size: 60rpx;
+}
+@mixin borCol() {
+	border: 2rpx solid #3CF8FF;
+}
+@mixin hr {
+	height: 2rpx;
+	background: #3CF8FF;
+}

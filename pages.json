@@ -1,0 +1,327 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/startPage/startPage",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"animationType": "slide-in-bottom",
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/guidePages/guidePages",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"animationType": "slide-in-bottom",
+					"titleNView": false,
+					"background": "#0c1524"
+				}
+			}
+		},
+		{
+			"path": "pages/index/register/register",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"background": "#0c1524",
+				"app-plus": {
+					"background": "#0c1524",
+					"animationType": "slide-in-right"
+				}
+			}
+		}
+
+		,
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"scrollIndicator": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/personalCenter/personalCenter",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+
+		{
+			"path": "pages/baseStation/baseStation",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"animationType": "slide-in-bottom",
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		}
+
+		, {
+			"path": "pages/signalPoint/signalPoint",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"animationType": "slide-in-bottom",
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		}, {
+			"path": "pages/index/inviteFriends/inviteFriends",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/personalCenter/messageCenter/messageCenter",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 260
+			}
+		}, {
+			"path": "pages/index/myBaseStation/myBaseStation",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/personalCenter/wifiAddress/wifiAddress",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/index/login/login",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"background": "#0c1524",
+				"app-plus": {
+					"background": "#0c1524",
+					"animationType": "slide-in-right"
+				}
+			}
+		}, {
+			"path": "pages/index/forgetPwd/forgetPwd",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/personalCenter/checkOut/checkOut",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/index/recharge/recharge",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/index/rechargeRecord/rechargeRecord",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/index/withdraw/withdraw",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/index/withdrawalRecord/withdrawalRecord",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/index/currencyTransfer/currencyTransfer",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/index/revenueRecords/revenueRecords",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/index/release/release",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/marketPlace/releaseMarket/releaseMarket",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/personalCenter/securitySetting/securitySetting",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/personalCenter/securitySetting/updatePwd",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/personalCenter/securitySetting/retrievePayPwd",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/personalCenter/securitySetting/updatePayPwd",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/personalCenter/customerCenter/customerCenter",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/personalCenter/myCommunity/myCommunity",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"scrollIndicator": "none"
+				}
+			}
+		}, {
+			"path": "pages/marketPlace/marketPlace",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/baseStation/capitalDistribution/capitalDistribution",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/index/transferRecord/transferRecord",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}
+
+		, {
+			"path": "pages/personalCenter/customerCenter/feedBack/feedBack",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/baseStation/baseList/baseList",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/signalPoint/interestRecord/interestRecord",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/signalPoint/interestRecord/interestDetail/interestDetail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/personalCenter/customerCenter/questionList/questionList",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/personalCenter/systemNotification/systemNotification",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/personalCenter/systemNotification/notificationDetails/notificationDetails",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#0c1524",
+		"backgroundColor": "#0c1524"
+	},
+	"tabBar": {
+		"color": "#6F7381",
+		"selectedColor": "#0AA9F2",
+		"borderStyle": "black",
+		"backgroundColor": "#0c1524",
+		"list": [{
+				// 注
+				"pagePath": "pages/signalPoint/signalPoint",
+				"iconPath": "static/tabbar/signal.png",
+				"selectedIconPath": "static/tabbar/signal1.png",
+				"text": "全球信号点"
+			},
+			{
+				// 注
+				"pagePath": "pages/baseStation/baseStation",
+				"iconPath": "static/tabbar/base.png",
+				"selectedIconPath": "static/tabbar/base1.png",
+				"text": "全球基站"
+			},
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/index.png",
+				"selectedIconPath": "static/tabbar/index-1.png",
+				"text": "首页"
+			},
+			{
+				// 注
+				"pagePath": "pages/marketPlace/marketPlace",
+				"iconPath": "static/tabbar/market.png",
+				"selectedIconPath": "static/tabbar/market1.png",
+				"text": "市场交易"
+			},
+			{
+				"pagePath": "pages/personalCenter/personalCenter",
+				"iconPath": "static/tabbar/center.png",
+				"selectedIconPath": "static/tabbar/center1.png",
+				"text": "个人中心"
+			}
+		]
+	}
+}
